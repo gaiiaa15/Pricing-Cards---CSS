@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="A responsive pricing page displaying three subscription plans.">
+    <meta name="keywords" content="pricing cards, subscription plans, HTML, CSS">
+    <meta name="author" content="Gaia Harb">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Pricing Plans</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pricing Plans</h1>
+        <p>Choose the plan that works best for you.</p>
+    </header>
+
+    <main>
+        <section id="pricing-container" aria-label="Available pricing plans">
+            <article class="pricing-card">
+                <h2> Basic </h2>
+                <p class="price">
+                    <span class="price-amount">$9</span>
+                    <span class="billing-period">/mo</span>
+                </p>
+                <p class="plan-description"> Essential features to get started. </p>
+                <hr>
+                <ul class="feature-list">
+                    <li>1 user</li>
+                    <li>5 projects</li>
+                    <li>10 GB storage</li>
+                    <li>Email support</li>
+                    <li>Basic reports</li>
+                </ul>
+                <button class="plan-button" type="button">Choose Basic</button>
+            </article>
+
+            <article class="pricing-card recommended">
+                <div class="price-card-tag">
+                    <p> Most popular </p>
+                </div>
+                <h2> Pro </h2>
+                <p class="price">
+                    <span class="price-amount">$19</span>
+                    <span class="billing-period">/mo</span>
+                </p>
+                <p class="plan-description"> Advanced tools for growing teams. </p>
+                <hr>
+                <ul class="feature-list">
+                    <li>5 users</li>
+                    <li>50 projects</li>
+                    <li>100 GB storage</li>
+                    <li>Priority support</li>
+                    <li>Advanced reports</li>
+                </ul>
+                <button class="plan-button" type="button">Choose Pro</button>
+            </article>
+
+            <article class="pricing-card">
+                <h2> Business </h2>
+                <p class="price">
+                    <span class="price-amount">$49</span>
+                    <span class="billing-period">/mo</span>
+                </p>
+                <p class="plan-description"> Complete solution for large organizations. </p>
+                <hr>
+                <ul class="feature-list">
+                    <li>Unlimited users</li>
+                    <li>Unlimited projects</li>
+                    <li>1 TB storage</li>
+                    <li>24/7 support</li>
+                    <li>Custom reports</li>
+                </ul>
+                <button class="plan-button" type="button">Choose Business</button>
+            </article>
+            
+        </section>
+    </main>
+</body>
+</html>
