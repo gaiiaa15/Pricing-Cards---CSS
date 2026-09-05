@@ -18,15 +18,15 @@ This project was created to practise building reusable card components, arrangin
 
 ### Desktop View
 
-![Desktop view of the pricing cards](desktopview.png)
+![Desktop view of the pricing cards](image/desktopview.png)
 
 ### Tablet View
 
-![Tablet view of the pricing cards](tabletview.png)
+![Tablet view of the pricing cards](image/tabletview.png)
 
 ### Mobile View
 
-![Mobile view of the pricing cards](mobileview.png)
+![Mobile view of the pricing cards](image/mobileview.png)
 
 ## Technologies Used
 
@@ -65,7 +65,7 @@ On screens up to 700 pixels wide, the cards stack vertically and use the availab
 2. Move into the project folder:
 
    ```bash
-   cd Pricing-Cardss---CSS
+   cd Pricing-Cards---CSS
    ```
 
 3. Open `index.html` in a browser or run the project using the Live Server extension in Visual Studio Code.
