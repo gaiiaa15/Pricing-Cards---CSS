@@ -59,13 +59,13 @@ On screens up to 700 pixels wide, the cards stack vertically and use the availab
 1. Clone the repository:
 
    ```bash
-   git clone YOUR-REPOSITORY-URL
+   git clone https://github.com/gaiiaa15/Pricing-Cards---CSS
    ```
 
 2. Move into the project folder:
 
    ```bash
-   cd YOUR-PROJECT-FOLDER
+   cd Pricing-Cardss---CSS
    ```
 
 3. Open `index.html` in a browser or run the project using the Live Server extension in Visual Studio Code.
@@ -75,9 +75,9 @@ On screens up to 700 pixels wide, the cards stack vertically and use the availab
 ```text
 pricing-cards/
 ├── images/
-│   ├── desktop-view.png
-│   ├── tablet-view.png
-│   └── mobile-view.png
+│-- desktop-view.png
+│-- tablet-view.png
+│-- mobile-view.png
 ├── index.html
 ├── style.css
 └── README.md
