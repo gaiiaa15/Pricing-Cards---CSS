@@ -79,6 +79,7 @@ main{
 
 .recommended .plan-button:hover {
     background-color: lightblue;
+    color: black
 }
 .price-card-tag {
     align-self: center;
@@ -106,4 +107,7 @@ main{
     header {
         padding-inline: 16px;
     }
+}
+hr{
+    width:100%;
 }
